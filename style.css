@@ -1,0 +1,326 @@
+html,
+body{
+    overflow: scroll    ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.social-hnd{
+    display: flex;
+}
+.first-nav{
+  
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(14, 73, 123);
+    height: 50px;
+    align-items: center;
+    color: rgb(29, 24, 24);
+    font-family: sans-serif;
+    padding: 0px 80px 0px 50px;
+    
+
+}
+svg{
+    margin-left: 20px;
+    color: white;
+}
+.reg-btn{
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.login-btn{
+    padding: 8px;
+    font-weight: 900;
+    color: rgb(14, 73, 123); ;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+    
+}
+.logo img{
+    width: 130px;
+}
+.menu a{
+  color: rgb(27, 24, 24);
+  text-decoration: none;
+margin-right: 15px;
+font-size: 15px;
+font-family: sans-serif;
+}
+.active a{
+  
+    color: rgb(10, 243, 165); ;
+}
+.search-icon{
+    position: relative;
+    left: 70px;
+}
+.search-icon input{
+    padding: 10px;
+    border:  1px solid gray;
+    border-radius: 4px;
+}
+.search-icon button{
+    padding: 10px;
+    border:  1px solid gray;
+}
+.banner{
+    background-image:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)),url(https://w0.peakpx.com/wallpaper/752/1002/HD-wallpaper-college-student-happy-students.jpg);
+    height: 86.2vh;
+    color: white;
+  
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+.startlearning{
+    width: 250px;
+    background-color:  rgb(22, 113, 192); ;
+    color: white;
+    padding: 15px;
+    font-weight: 900 ;
+    border: none;
+    border-radius: 25px;
+
+}
+.para{
+    width: 800px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.learnmore{
+    margin-top: 25px;
+    
+padding: 14px;
+background-color: white;
+color: balck;
+font-weight: bold;
+border: none;
+border-radius: 10px;
+
+}
+.ourcouse{
+    margin-left: 20px;
+    margin-top: 25px;
+    padding: 14px;
+    background-color: rgb(23, 122, 208);; 
+    color: white    ;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+.execellent-text{
+   
+   
+    font-family: sans-serif;
+    
+    
+}
+.ourcouseh3{
+    width: 100%;
+    text-align: center;
+  font-family: sans-serif;
+    color: blueviolet;
+    margin: 20px;
+    font-size: xx-large;
+
+}
+.card-container{
+   
+
+    margin: 0px auto;
+
+   width: 90%;
+flex: wrap;
+    display: flex;
+    flex-wrap: wrap;
+   
+  
+   
+}
+.cards{
+    width: calc(33.3% - 2px - 20px    );  
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    border: 1px solid rgb(236, 235, 235);
+    margin: 10px ;
+   
+
+    
+}
+.cards p{
+    text-align: center;
+font-family: sans-serif;
+padding: 5px 10px;
+
+}
+.site-footer{
+    width: 100%;
+    
+    background-color: #333;
+    padding: 20px 20px;
+    color: white;
+   font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  
+
+}
+
+
+.footerfollow{
+padding: 10px;
+font-family: sans-serif;
+}
+.footer-icons{
+padding: 10px;
+
+}
+.footer-list{
+    list-style: none;
+   
+ 
+   margin-left: 20px;
+}
+.content-footer{
+    padding: 20px;
+}
+@media (max-width: 720px) {
+  
+    .search-icon {
+        position: relative;
+        left: -10px;
+        display: flex;
+    }
+    .menu a {
+        color: rgb(27, 24, 24);
+        text-decoration: none;
+        margin-right: 12px;
+        font-size: 11px;
+        font-family: sans-serif;
+    }
+ 
+    .search-icon input {
+        padding: 5px;
+        border: 1px solid gray;
+        border-radius: 4px;
+    }
+    .search-icon button {
+        padding: 5px;
+        border: 1px solid gray;
+    }
+    .logo img {
+        width: 119px;
+    }
+    .para {
+        width: 630px;
+        font-family: sans-serif;
+        margin-top: 10px;
+        font-weight: 500;
+    }
+    .startlearning {
+        width: 223px;
+        background-color: rgb(22, 113, 192);
+        color: white;
+        padding: 14px;
+        font-weight: 800;
+        border: none;
+        border-radius: 25px;
+    }
+    .cards {
+        width: calc(50% - 2px - 20px    );
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        border: 1px solid rgb(236, 235, 235);
+        margin: 10px;
+    }
+    .footerheading{
+width: 300px;
+    }
+    .site-footer {
+        width: 100%;
+        background-color: #333;
+        padding: 20px -2px;
+        
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media(max-width:320px){
+    .container{
+      
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+
+    }
+    
+    .first-nav{
+       height: 95px;
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .reg-login{
+        display: flex;
+        flex-direction: column;
+    }
+    .login-btn{
+        padding: 2px;
+        margin: 2px;
+    }
+    .social-hnd p{
+        width: 100px;
+    }
+    .social-hnd{
+        margin: 5px;
+    }
+    .para{
+        width: 300px;
+        
+    }
+    .banner{
+        height: 650px;
+    }
+    .cards{
+        width: calc(100% - 2px - 20px);;
+    }
+  
+    .site-footer{
+        
+        display: flex;
+        flex-direction: column;
+    }
+   .footer-icons{
+    margin-left: -190px;
+   }
+   .search-icon{
+    margin: 10px;
+   }
+}
+ 
